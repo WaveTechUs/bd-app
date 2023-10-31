@@ -5,6 +5,6 @@ namespace WinFormsApp1.Model
     class Cor
     {
         [DisplayName("Nome da Cor")]
-        public string NomeCor { get; set; }
+        public string Nome { get; set; } = string.Empty;
     }
 }
